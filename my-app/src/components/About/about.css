@@ -1,0 +1,102 @@
+.abouthome{
+    height: auto;
+}
+.abouthome #heading{
+    text-align: center;
+    padding: 0;
+}
+.abouthome .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.abouthome.right{
+    padding: 80px 50px;
+}
+.abouthome .items {
+    margin-top: 50px;
+}
+
+.abouthome .item{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+
+}
+.abouthome .img{
+    width: 200px;
+
+}
+.abouthome img {
+    width: 70px;
+    height: 70px;
+}
+.abouthome.item h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.abouthome .item:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+   box-shadow: 0 5px  25px -2px rgb(0 0 0 /6%);
+    cursor: pointer;
+
+}
+/* ------------awrapper------------ */
+
+.awrapper{
+    background-image: url(../../../public/images/awrapper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+
+}
+.awrapper .box{
+    padding: 70px 0;
+    display: inline-flex;
+}
+.awrapper img{
+    margin-right: 30px;
+}
+.awrapper h1{
+    font-size: 50px;
+}
+.awrapper h3{
+    font-size: 20px;
+    font-weight:500 ;
+    text-transform: uppercase;
+}
+.marigin{
+    margin-top: 40.3%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+@media screen  and ( max-width:786px){
+    .abouthome .container{
+        flex-direction: column-reverse;
+    }
+    .abouthome .row {
+        width: 100%;
+    }
+    .abouthome{
+        margin-top: 110%;
+    }
+    .awrapper{
+        height: 90vh;
+        object-fit:cover;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .flex{
+        flex-direction: column;
+    }
+   
+}

@@ -1,0 +1,50 @@
+.hero{
+    background-image: url("../../../public/images/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    z-index: -1;
+    padding-right: 50px;
+    color: #fff;
+}
+
+
+.hero .container{
+ 
+    margin-top: -80px;
+}
+
+
+.hero #headind h3 {
+    color: #fff;
+}
+.hero #headind {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.margin{
+    margin-top: 40%;
+ }
+
+@media screen and (max-width:768px) {
+    .margin{
+        height: 4ovh;
+
+    }
+    .hero{
+        background-position: right;
+        height: 80vh;
+        padding-top: 50%;
+        margin-bottom: 20%;
+    }
+     .hero .row {
+        width: 100%;
+        
+     }
+   
+}
